@@ -1,0 +1,78 @@
+/* 
+    Created on : Jun 13, 2017, 2:03:41 PM
+    Author     : seb
+*/
+html,body{
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ec6db;
+    color: white;
+}
+
+.tweet{
+    border:1px solid black;
+    margin-top: 10px;
+    width: 70%;
+}
+.pic{
+    display: inline;
+    border:2px solid #0f6bff;
+    border-radius: 5px;
+    margin:5px 5px 0px 5px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.imgandname{
+    display:flex;
+    align-items: center;
+}
+.name{
+    display: inline-block;
+}
+/*footer {
+    bottom: 0;
+    width: 100%;
+}*/
+.new_title{
+    align-self: center;
+}
+.newTweet{
+    height:90vh;
+    width: 15%;
+
+}
+#tweetsen{
+    color:#0f6bff;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    height: auto;
+    padding:0 5px 5px 5px;
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+    height: 90vh;
+}
+.infos{
+    display: flex;
+    justify-content: space-around;
+}
+.message{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 10px 10px 10px;
+}
